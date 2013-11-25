@@ -1,74 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Xmartinfonet.github.io : " />
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>聪智运维</title>
+	<meta name="author" content="Elliott" />
+	<meta name="description" content="Elliott Personal Website." />
+	<meta name="keywords"  content="智能运维,智能运维系统,运维系统,运维管理系统,运维服务,弱电,智能弱电,系统集成,运维紧急服务,运维24小时在线,运维工程师,运维报价,安防,系统集成" />
+	<meta name="Resource-type" content="Document" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/site.css" />
 
-    <title>Xmartinfonet.github.io</title>
-  </head>
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+		
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>	
+	
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var pepe = $.fn.fullpage({
+				slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#1bbc9b', '#7BAABE'],
+				anchors: ['index', 'secondPage', '3rdPage', '4thPage', '5thPage'],
+				menu: '#menu'
+			});
+			
+		});
+	</script>
 
-  <body>
+</head>
+<body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/xmartinfonet">View on GitHub</a>
 
-          <h1 id="project_title">Xmartinfonet.github.io</h1>
-          <h2 id="project_tagline"></h2>
 
-        </header>
-    </div>
+<ul id="menu">
+	<li data-menuanchor="index"><a href="#index">首页</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">服务</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">产品</a></li>
+	<li data-menuanchor="4thPage"><a href="#4thPage">团队</a></li>
+	<li data-menuanchor="5thPage"><a href="#5thPage">联系</a></li>
+</ul>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<div class="section " id="index" style="color:#FFF;">
+	<h1 style="color:#FFF;">我们来了！创新的运维</h1>
+	<p>LBS系统，实时找到我们的工程师！</p>
+	<img src="image/index.png" alt="map" style="width:600px;"/>
+</div>
+<div class="section" id="section1">
+    <div class="slide">
+		<div class="intro" style="color:#FFF;">
+			<h1 style="color:#FFF;">拼速度的时代</h1>
+			<p>依据客户所在地，根据LBS系统定位最近的工程师，以最快的路线前往</p>
+			<img src="image/map2.png" alt="速度致上" style="width:600px;"/>
+		</div>
+		
+	</div>
+    <div class="slide">
+		<div class="intro" style="color:#FFF;">
+			<h1 style="color:#FFF;">拼专业服务</h1>
+			<p>严格按照ITIL标准服务体系，规范化操作</p>
+			<img src="image/itil.jpg" alt="专业化" style="width:450px;"/>
+		</div>
+	</div>
+    <div class="slide">
+		<div class="intro">
+			<h1 style="color:#FFF;">24小时管家</h1>
+			<p>一年365天，不打烊！主动+自动运维+远程专家在线</p>
+			<img src="image/24.gif" alt="24小时服务" style="width:450px;"/>
+		</div>
+	</div>
+    <div class="slide">
+    	<div class="intro" style="color:#FFF;">
+    		<h1 style="color:#FFF;">拼价格更低</h1>
+    		<p>同行业中，由于运用了最先进的LBS系统，控制服务成本，凸显价格优势</p>
+			<img src="image/price.jpg" alt="最低价格" style="height:305px;"/>
+		</div>
+	</div>
+	<div class="slide">
+    	<div class="intro" style="color:#FFF;">
+    		<h1 style="color:#FFF;">拼个性化</h1>
+    		<p>按照您的需求，可以按次数、包月、包年服务，自由定制，首创按需服务！</p>
+			<img src="image/personality.jpg" alt="个性化服务" style="height:305px;"/>
+		</div>
+	</div>
+</div>
+<div class="section" id="section2">
+	<div class="slide">
+		<div class="intro" style="color:#FFF;">
+			<h1 style="color:#FFF;">系统集成</h1>
+			<p>保证网络通畅，办公系统稳定运行，电子设备正常运行，满足客户一切合理要求</p>
+			<img src="image/network.png" alt="系统监控" style="width:600px;"/>
+		</div>
+	</div>
+	<div class="slide">
+		<div class="intro" style="color:#FFF;">
+			<h1 style="color:#FFF;">云计算服务</h1>
+			<p>邮件系统、存储系统、备份系统，可随时随地通过VPN加密，安全的访问公司网络，存储、访问文件，实现远程办公</p>
+			<img src="image/cloud.jpg" alt="云计算" style="height:305px;"/>
+		</div>
+	</div>
+	<div class="slide">
+		<div class="intro" style="color:#FFF;">
+			<h1 style="color:#FFF;">企业虚拟化</h1>
+			<p>通过虚拟化技术，最大程度的节约硬件成本，发挥现有硬件的全部性能，简化操作</p>
+			<img src="image/virtual.jpeg" alt="虚拟化" style="height:305px;"/>
+		</div>
+	</div>
+	<div class="slide">
+		<div class="intro" style="color:#FFF;">
+			<h1 style="color:#FFF;">资产管理</h1>
+			<p>随时了解公司固定资产及分配情况，对即将到期的软件、硬件进行提醒</p>
+			<img src="image/assets.png" alt="系统监控" style="width:600px;"/>
+		</div>
+	</div>
+	<div class="slide">
+		<div class="intro" style="color:#FFF;">
+			<h1 style="color:#FFF;">门禁安防</h1>
+			<p>24小时环境监控，保证办公环境及周边安全</p>
+			<img src="image/watch.jpg" alt="系统监控" style="height:305px;"/>
+		</div>
+	</div>
+	</div>
+</div>
+<div class="section" id="section3">
+	<div class="intro" style="color:white">
+		<h1 style="color:white">团队介绍</h1>
+		<p>三个核心成员，分别来自航信、西门子、保时捷。<br/>
+			我们在做一件伟大的事情，立志成为国内最强的IT服务团队。<br/>
+			我们利用对于IT行业专业的了解，以最低的价格为中小型企业、学校提供弱电类系统解决方案，如电话通信系统、计算机局域网系统、系统集成、保安监控系统、出入口控制系统、楼宇自控系统以及弱电类系统后续的维护保养服务。
+		</p>
+	</div>
+</div>
+<div class="section" id="section4">
+	<div class="intro" style="color:white">
+		<h1 style="color:white">联系方式</h1>
+		<p>徐经理:18616775516　<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=249480047&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:249480047:44" alt="点击咨询" title="点击咨询"/></a></p>
+		<p>凌经理:13901962971  　<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=68875980&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:68875980:44" alt="点击咨询" title="点击咨询"/></a></p>
+		<p>皋经理:13512100793 　<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=188172367&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:188172367:44" alt="点击咨询" title="点击咨询"/></a></p>
+	</div>
+</div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+</body>
 </html>
